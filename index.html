@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="keywords" content="free PicFit online, resize images without losing quality, compress and resize images, online image resizer tool, bulk image resizer, resize JPG PNG images, fast image resizer for web, mobile-friendly image resizer, photo resizer for social media, crop and resize images online">
+	<title>PicFit</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+<body>
+	<div class="app">
+		<img src="logo.jpg" height="100" width="100">
+		<h1>PicFit</h1>
+		<div class="upload-box">
+			<input type="file" id="upload" accept="image/*" />
+		</div>
+		<div class="controls">
+			<label>
+				Width: <input type="number" id="width">
+			</label>
+			<label>
+				Height: <input type="number" id="height">
+			</label>
+			<label>
+				Quality: <input type="range" id="quality" min="0.1" max="1" step="0.1" value="0.9">
+			</label>
+			<button onclick="resizeImage()">Resize & Download</button>
+			<div class="footer">Copyright 2025 <em>PicFit.</em> Make a donation <a href="https://wenqiefa.mychariow.com/prd_ewmnn4">here</a> to support us</div>
+		</div>
+		<canvas id="canvas" style="display: none;"></canvas>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

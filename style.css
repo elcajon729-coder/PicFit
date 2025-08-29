@@ -1,0 +1,80 @@
+. {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Segoe UI, sans-serif;
+	background: #f9fafc;
+	justify-content: center;
+	padding: 20px;
+	display: flex;
+	min-height: 100vh;
+	align-items: flex-start;
+
+}
+
+.app {
+	background: white;
+	padding: 50px;
+	border-radius: 12px;
+	width: 100%;
+	max-width: 480px;
+	text-align: center;
+	box-shadow: 0 10 30px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #4a90e2;
+}
+
+.upload-box {
+	margin-bottom: 20px;
+}
+
+input[type="file"] {
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 6px;
+	width: 100%;
+}
+
+.controls label {
+	display: block;
+	margin: 12px 0;
+	text-align: left;
+	color: #555;
+	font-size: 14px;
+}
+
+.controls input[type="number"], 
+.controls input[type="range"] {
+	width: 100%;
+	padding: 8px;
+	border-radius: 6px;
+	border: 1px solid #ddd;
+	margin-top: 5px;
+}
+
+button {
+	margin-top: 20px;
+	padding: 12px 20px;
+	background: #4a90e2;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	width: 100%;
+	transition: background 0.3s ease;
+}
+
+button:hover {
+	background: #357bd8;
+}
+
+.footer {
+	margin-top: 30px;
+}
